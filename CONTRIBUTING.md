@@ -22,11 +22,11 @@ Whether it's reporting bugs, suggesting features, or submitting code, we appreci
    ```bash  
    git checkout -b fix/issue-123
 
-4. Make changes and test them:
+**### 4. Make changes and test them:**
 
-terraform init && terraform plan  
+**terraform init && terraform plan  **
 
-5.Commit with a descriptive message:
+**### 5.Commit with a descriptive message:**
 
 A clear title (e.g., "feat: add VPC flow log options").
 
