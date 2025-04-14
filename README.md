@@ -22,3 +22,7 @@ Feature	Description
 Multi-AZ	Subnets in 3 availability zones
 Cost-Optimized	Shared NAT gateways for private subnets
 Secure	Default deny-all security groups
+
+
+## **Contributor Note**  
+We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.  
