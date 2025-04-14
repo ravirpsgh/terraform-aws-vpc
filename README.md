@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Terraform Version](https://img.shields.io/badge/terraform-≥1.3.0-blue)](https://terraform.io)
 
-A **production-ready Terraform module** to deploy secure AWS VPCs with:
+A **production-ready Terraform module**to deploy secure AWS VPCs with:
 - ✅ Public/private subnets across 3 AZs
 - ✅ NAT gateways with elastic IPs
 - ✅ Preconfigured security groups (SSH/HTTP/HTTPS)
@@ -15,3 +15,10 @@ module "vpc" {
   vpc_cidr = "10.0.0.0/16"
   env      = "prod"
 }
+
+
+Features:
+Feature	Description
+Multi-AZ	Subnets in 3 availability zones
+Cost-Optimized	Shared NAT gateways for private subnets
+Secure	Default deny-all security groups
